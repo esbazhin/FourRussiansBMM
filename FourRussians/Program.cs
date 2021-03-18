@@ -24,9 +24,6 @@ namespace FourRussians
 
             int m = (int)Math.Floor(Math.Log(n));
             int t = (int)Math.Ceiling((double)n / (double)m);
-            Console.WriteLine(n);
-            Console.WriteLine(m);
-            Console.WriteLine(t);
 
             var splitA = FourRussiansMethods.SplitMatrix(a, m, t);
             var splitB = FourRussiansMethods.SplitMatrix(b, m, t);
